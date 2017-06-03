@@ -1,0 +1,10 @@
+x=[-10:0.01:10];
+z=25-x.*x;
+y=sqrt(z);
+y1=-sqrt(z);
+y2=x.*x-2;
+plot(x,y);
+hold on;
+plot(x,y1);
+plot(x,y2);
+hold off;
